@@ -27,7 +27,7 @@ toto = pd.read_csv(link2)
 pred1 = pd.read_csv(link3)
 pred2 = pd.read_csv(link4)
 
-path="C:\\Users\\marie\\OneDrive\\Documents\\GitHub\\hackaton1_WCS_app\\images\\logo.png"
+path="https://github.com/marie-31/datathon1-wcs/blob/master/images/logo.png"
 st.sidebar.image(Image.open(path), use_column_width=True)
 
 st.markdown("<h1 style='text-align: center; color: grey;'>Save my election</h1>", unsafe_allow_html=True)
