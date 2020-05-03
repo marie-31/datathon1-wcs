@@ -11,6 +11,7 @@ pandas = "*"
 matplotlib = "*"
 seaborn = "*"
 image = "*"
+sh = "*"
 
 [requires]
 python_version = "3.8"

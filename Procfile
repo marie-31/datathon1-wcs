@@ -1,1 +1,1 @@
-web: bash setup.sh && streamlit run hackatonDataWarriorsMC.py
+web: sh setup.sh && streamlit run hackatonDataWarriorsMC.py
