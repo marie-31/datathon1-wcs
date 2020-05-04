@@ -9,8 +9,7 @@ matplotlib.use('Agg')
 
 #from sklearn.linear_model import LinearRegression
 from PIL import Image
-import urllib.request
-import io
+from urllib.request import urlopen
 
 
 
