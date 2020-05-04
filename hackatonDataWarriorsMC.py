@@ -31,12 +31,22 @@ toto = pd.read_csv(link2)
 pred1 = pd.read_csv(link3)
 pred2 = pd.read_csv(link4)
 
+
+import urllib2 as urllib
+import cStringIO
+
+
+
+
+
+
 url="https://github.com/marie-31/datathon1-wcs/blob/master/images/logo.png"
+fd = urllib.urlopen(url)
+image_file = cStringIO.StringIO(fd.read())
+im = Image.open(image_file)
 
-img = Image.open(urlopen(url))
-img
 
-st.sidebar.image(img, use_column_width=True)
+st.sidebar.image(im, use_column_width=True)
 
 st.markdown("<h1 style='text-align: center; color: grey;'>Save my election</h1>", unsafe_allow_html=True)
 
