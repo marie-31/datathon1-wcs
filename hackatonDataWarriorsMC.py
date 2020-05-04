@@ -9,6 +9,11 @@ matplotlib.use('Agg')
 
 #from sklearn.linear_model import LinearRegression
 from PIL import Image
+import urllib.request
+import io
+
+
+
 pd.options.mode.chained_assignment = None  # default='warn'
 
 
@@ -28,6 +33,11 @@ pred1 = pd.read_csv(link3)
 pred2 = pd.read_csv(link4)
 
 path="https://github.com/marie-31/datathon1-wcs/blob/master/images/logo.png"
+
+with urllib.request.urlopen(URL) as path:
+    f = io.BytesIO(path.read())
+
+img = Image.open(f)
 st.sidebar.image(Image.open(path), use_column_width=True)
 
 st.markdown("<h1 style='text-align: center; color: grey;'>Save my election</h1>", unsafe_allow_html=True)
