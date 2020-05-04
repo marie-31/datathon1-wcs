@@ -13,6 +13,7 @@ seaborn = "*"
 image = "*"
 sh = "*"
 bash = "*"
+urllib2 = "*"
 
 [requires]
 python_version = "3.8"
