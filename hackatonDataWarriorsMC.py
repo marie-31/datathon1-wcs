@@ -22,7 +22,7 @@ pred1 = pd.read_csv(link3)
 pred2 = pd.read_csv(link4)
 
 
-url="https://github.com/marie-31/datathon1-wcs/blob/master/images/logo.png"
+url="https://github.com/marie-31/datathon1-wcs/blob/master/images/logo.png?raw=true"
 
 st.sidebar.image(url, use_column_width=True)
 
@@ -111,28 +111,28 @@ elif vue == 'national':
      title = "<h2 style='text-align: center; color: grey;'>Vainqueur départemental</h2></br><h3 style='text-align: center; color: grey;'> </br> Année "+str(annee)+" - "+tour_label+"</h3>"
      st.markdown(title, unsafe_allow_html=True)
      if (annee == 2002 and tour == 1) :
-          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2002_1.jpeg"
+          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2002_1.jpeg?raw=true"
           st.image(path, caption='2002 / 1er Tour', use_column_width=True)
      elif annee == 2002 and tour == 2  :
-          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2002_2.jpeg"
+          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2002_2.jpeg?raw=true"
           st.image(path, caption='2002 / 2e Tour', use_column_width=True)
      elif annee == 2007 and tour == 1:
-          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2007_1.jpeg"
+          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2007_1.jpeg?raw=true"
           st.image(path, caption='2007 / 1er Tour', use_column_width=True)
      elif annee == 2007 and tour == 2 :
-          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2007_2.jpeg"
+          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2007_2.jpeg?raw=true"
           st.image(path, caption='2007 / 2e Tour', use_column_width=True)
      elif annee == 2012 and tour == 1 :
-          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2012_1.jpeg"
+          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2012_1.jpeg?raw=true"
           st.image(path, caption='2012 / 1er Tour', use_column_width=True)
      elif annee == 2012 and tour == 2 :
-          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2012_2.jpeg"
+          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2012_2.jpeg?raw=true"
           st.image(path, caption='2012 / 2e Tour', use_column_width=True)
      elif annee == 2017 and tour == 1  :
-          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2017_1.jpeg"
+          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2017_1.jpeg?raw=true"
           st.image(path, caption='2017 / 1er Tour', use_column_width=True)
      elif annee == 2017 and tour == 2 :
-          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2017_2.jpeg"
+          path="https://github.com/marie-31/datathon1-wcs/blob/master/images/2017_2.jpeg?raw=true"
           st.image(path, caption='2017 / 2e Tour', use_column_width=True)
      #st.sidebar.image(path, caption='2017 / 2e Tour', use_column_width=True)
 elif vue == 'prédictions':  
@@ -157,10 +157,10 @@ else:
      title1 = "<h2 style='text-align: center; color: grey;'>Taux d'abstention national</h2>"
      
      st.markdown(title1, unsafe_allow_html=True)
-     path="https://github.com/marie-31/datathon1-wcs/blob/master/images/abstention.png"
+     path="https://github.com/marie-31/datathon1-wcs/blob/master/images/abstention.png?raw=true"
      st.image(path, use_column_width=True)
      
      title2 = "<h2 style='text-align: center; color: grey;'></br></br>Votes blancs ou nuls</h2>"
      st.markdown(title2, unsafe_allow_html=True)
-     path="https://github.com/marie-31/datathon1-wcs/blob/master/images/blanc.png"
+     path="https://github.com/marie-31/datathon1-wcs/blob/master/images/blanc.png?raw=true"
      st.image(path, use_column_width=True)
